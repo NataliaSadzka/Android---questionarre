@@ -23,17 +23,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = (Button) findViewById(R.id.button);
-        button2 = (Button) findViewById(R.id.button2);
-        checkBox = (CheckBox) findViewById(R.id.checkBox);
-        checkBox2 = (CheckBox) findViewById(R.id.checkBox2);
-        checkBox3 = (CheckBox) findViewById(R.id.checkBox3);
-        checkBox4 = (CheckBox) findViewById(R.id.checkBox4);
-        checkBox5 = (CheckBox) findViewById(R.id.checkBox5);
-        textView3 = (TextView) findViewById(R.id.textView3) ;
-
-        //button.setOnClickListener(this);
-        //button2.setOnClickListener(this);
+        button = findViewById(R.id.button);
+        button2 = findViewById(R.id.button2);
+        checkBox = findViewById(R.id.checkBox);
+        checkBox2 = findViewById(R.id.checkBox2);
+        checkBox3 = findViewById(R.id.checkBox3);
+        checkBox4 = findViewById(R.id.checkBox4);
+        checkBox5 = findViewById(R.id.checkBox5);
+        textView3 = findViewById(R.id.textView3) ;
     }
 
     @Override
